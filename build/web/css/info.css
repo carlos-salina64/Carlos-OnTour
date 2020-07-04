@@ -1,0 +1,91 @@
+#info{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#info .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.info-pet{
+    margin: 20px;
+    
+}
+
+.info-pet img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+#login form{
+    margin: auto;
+    width: 50%;
+    max-width: 500px;
+    background: red;
+    padding: 30px;
+    border: 4px solid white;
+    margin-top: 100px;
+    
+}
+
+#login h2{
+
+    text-align: center;
+    margin-bottom: 20px;
+    color:  rgba(5,5,5,20);
+}
+
+#login input{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin: 30px 0 ;
+    font-size: 20px;
+}
+
+#login input [type="submit"]{
+    background: linear-gradient(#FFDA63, #FF8940);
+    border: 0;
+    color:#333;
+    opacity: 0.8;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 0;
+}
+
+#login input [type="submit"]:hover{
+  opacity: 1;
+}
+#login form img{
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-top: -50px;
+}
+
+#login input [type="submit"]:active{
+  transform: scale(0.9);
+      
+}
+
+@media (max-width: 768px){
+    #login form{
+        width: 75%;
+    }
+    
+}
+
+@media (max-width: 480px){
+    #login form{
+        width: 95%;
+    }
+    
+}
